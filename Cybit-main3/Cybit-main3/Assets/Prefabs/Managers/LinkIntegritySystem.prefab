@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3233723047584692162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6674082687909630818}
+  - component: {fileID: 3013103842364701284}
+  m_Layer: 0
+  m_Name: LinkIntegritySystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6674082687909630818
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3233723047584692162}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3013103842364701284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3233723047584692162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed34bd49f2142354198f1ef04b3b9954, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _breachDoors:
+  - {fileID: 0}
+  _maxIntegrity: 250
+  _currentIntegrity: 0
+  _integrityFailureFactor: 1
+  _penaltyPercentage: 0.66
+  _integrityThresholdDivider: 3
+  _breachLinkThreshold: 220
+  _linkGroup: {fileID: 0}
+  _linkBg: {fileID: 0}
+  _linkPulse: {fileID: 0}
+  _linkFill: {fileID: 0}
+  _linkPercentageText: {fileID: 0}
+  _linkHudAnimator: {fileID: 0}
+  _hudInMiddleOfScreen: 0
+  _transitionSpeed: 5
+  _camAnimator: {fileID: 0}
+  _linkHudAudioSource: {fileID: 0}
+  _linkPulseAC: {fileID: 8300000, guid: 37e06fd35b3607a408a4cc7579a6167c, type: 3}
+  _startColor: {r: 0, g: 1, b: 0, a: 1}
+  _endColor: {r: 1, g: 0, b: 0, a: 1}
+  _isLinkConnected: 1
+  _isLinkCompromised: 0
+  _shouldBeActiveOnStart: 1
+  _isBreachRoomsAvailable: 0

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e92440c9414aa0340836450215cda429, type: 3}
+  m_Name: Buster_Data
+  m_EditorClassIdentifier: 
+  _spawnAC: {fileID: 0}
+  _idleAC: {fileID: 0}
+  _hurtAC: {fileID: 0}
+  _deathAC: {fileID: 0}
+  _endDeathAC: {fileID: 0}
+  _itemDropAC: {fileID: 0}
+  _damageColor: {r: 1, g: 0, b: 0, a: 1}
+  _maxHealth: 5
+  _moveSpeed: 2
+  _attackDamage: 1
+  _attackRange: 5
+  _timeBetweenAttacks: 0.8
+  _knockBackTime: 0.15
+  _focusToGivePlayer: 10
+  _currencyToGivePlayer: 5
+  _patrolingAC: {fileID: 0}
+  _attackAC: {fileID: 0}
+  _spotPlayerAC: {fileID: 0}
+  _projectile: {fileID: 917580121659645787, guid: 552ee294b03a42f4c94995bfce627ae8, type: 3}
+  _chargedProjectile: {fileID: 917580121659645787, guid: 552ee294b03a42f4c94995bfce627ae8, type: 3}
+  _chargeAttackColor: {r: 0.97952497, g: 1, b: 0, a: 1}
+  _projectileSpeed: 1500
+  _chargeAttackFlashDuration: 1
+  _chargeAttackCooldown: 1

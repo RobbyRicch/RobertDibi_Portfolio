@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a2e604e6359168478ed2b5609c12528, type: 3}
+  m_Name: JackalWarden_Data
+  m_EditorClassIdentifier: 
+  _spawnAC: {fileID: 0}
+  _idleAC: {fileID: 0}
+  _hurtAC: {fileID: 0}
+  _deathAC: {fileID: 0}
+  _endDeathAC: {fileID: 0}
+  _itemDropAC: {fileID: 0}
+  _damageColor: {r: 1, g: 0, b: 0, a: 1}
+  _maxHealth: 700
+  _moveSpeed: 0
+  _attackDamage: 1
+  _attackRange: 8
+  _timeBetweenAttacks: 0.2
+  _knockBackTime: 0.15
+  _focusToGivePlayer: 10
+  _currencyToGivePlayer: 5
+  _basicAttackAC: {fileID: 0}
+  _specialAttackAC: {fileID: 0}
+  _projectile: {fileID: 917580121659645787, guid: b37fef4eb643ab4448a1f07dfc7139c4, type: 3}
+  _projectileSpeed: 400

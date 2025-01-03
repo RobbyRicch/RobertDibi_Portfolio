@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4583027354875994937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5937071499971968963}
+  - component: {fileID: 3449944272430372135}
+  m_Layer: 0
+  m_Name: SaveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5937071499971968963
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4583027354875994937}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8943037977973722401}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3449944272430372135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4583027354875994937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea3cfbeb31dc79d409b480f5a303dc89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _fileName: SaveState
+  _startingPos: {x: -19, y: 1.25, z: 0}
+  _activeCheckPoint: {fileID: 0}
+  _allPrimaryGunPrefabs:
+  - {fileID: 2463882431046041095, guid: b45275fbcca835047a2750f3f8e7e492, type: 3}
+  - {fileID: 3534235104645022743, guid: 9744cae746c1694459a8da236564543e, type: 3}
+  - {fileID: 9198044810983079602, guid: 080883ba42cc11b46872188a8f11e26c, type: 3}
+  _allSideArmPrefabs:
+  - {fileID: 4633585234625539714, guid: 4fd8c1c3bccd1604a909b534b605a53c, type: 3}
+  - {fileID: 4155749979017704112, guid: 4370e945bb8fd4d459d58cd65195fc29, type: 3}
+--- !u!1 &8228356558967686547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8943037977973722401}
+  m_Layer: 0
+  m_Name: PlayerStartingPoint_Tr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8943037977973722401
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8228356558967686547}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -18.87787, y: 1.2483025, z: -10.975807}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5937071499971968963}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

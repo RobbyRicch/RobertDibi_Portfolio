@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adcec59787ce404f8e5af693438b635, type: 3}
+  m_Name: SO_Minigun_1
+  m_EditorClassIdentifier: 
+  _slotType: 0
+  _bulletDamage: 1
+  _bulletSpeed: 5000
+  _maxClipSize: 60
+  _currentClipSize: 0
+  _fireRate: 0.015
+  _reloadTime: 2
+  _bulletPrefab: {fileID: 3478037359134854875, guid: 0b37aa5bebd7cdd44adf76243043e39c, type: 3}
+  _gunAnimator: {fileID: 9100000, guid: c55163344f3bed24faa7ab07febf0f80, type: 2}
+  _gunShot: {fileID: 8300000, guid: 89e3ff5352a41fa4fb4f0a2137062a5f, type: 3}
+  _reload: {fileID: 8300000, guid: 8f9567250cf27b34c92e7d41f3fcdc34, type: 3}
+  _empty: {fileID: 8300000, guid: e1ace7024ea850e4ea5aca861ab90379, type: 3}
+  _muzzleFlash: {fileID: 7964782321993122900, guid: 80565eb29e1c7f24597e2ff2ccb4b731, type: 3}
+  _fluffVFX: {fileID: 7964782321993122900, guid: 80565eb29e1c7f24597e2ff2ccb4b731, type: 3}
+  _newWeaponAudio: []

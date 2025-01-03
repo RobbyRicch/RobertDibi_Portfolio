@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4326490497746418614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 980639691661112093}
+  - component: {fileID: 8086806599118820603}
+  - component: {fileID: 4719446024261228302}
+  m_Layer: 0
+  m_Name: OfficerRanger_BossSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &980639691661112093
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4326490497746418614}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.6, y: 13.51, z: -0.16602638}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8086806599118820603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4326490497746418614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1091184f23d9ca44aed6591c78d74bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxSpawnAmount: 50
+  _currentSpawned: 0
+  _totalSpawned: 0
+  _groupSize: 5
+  _spawnCooldown: 2
+  _spawnGroup: 1
+  _shouldUpgrade: 0
+  _isfakeSpawner: 0
+  _prefabs:
+  - {fileID: 8317610943687341254, guid: 0c63fdb9cac71224c9dd603e9da5c0f6, type: 3}
+  - {fileID: 7898543228721435394, guid: 000053c6fdb042249aa5c09cabed5a48, type: 3}
+  _spawnedEnemies: []
+  _task: {fileID: 4719446024261228302}
+--- !u!114 &4719446024261228302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4326490497746418614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a742de9ef8e88c749ae158a8b21a904e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isTaskComplete: 0
+  _killGoal: 100
+  _currentKills: 0
+  _bossGO: {fileID: 4298992455711774614, guid: 729f249faf29f6840ba27d56bc300d2f, type: 3}
+  _timeToSpawnBoss: 3
+  _timeToDisableVFX: 4
+  _spawnPoint: {fileID: 0}
+  _spawnVFX: {fileID: 0}
+  _endHUD: {fileID: 0}
