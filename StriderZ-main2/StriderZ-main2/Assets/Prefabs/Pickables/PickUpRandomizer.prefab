@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7491892836538961618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7491892836538961620}
+  - component: {fileID: 7491892836538961621}
+  m_Layer: 0
+  m_Name: PickUpRandomizer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7491892836538961620
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7491892836538961618}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -24.118042, y: 3.09, z: 206.57304}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7491892836538961621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7491892836538961618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6a8ebf486e5ae34ab3695c8fd673c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pickups:
+  - Probability: 0.4
+    PickupObj: {fileID: 4143136823943870884, guid: 932e61ac4c8f0b84fb79d40a39cf0a88,
+      type: 3}
+  - Probability: 0.4
+    PickupObj: {fileID: 4515487341847565382, guid: b93afc23c78b0fb469274235ca5b1d7c,
+      type: 3}
+  - Probability: 0.1
+    PickupObj: {fileID: 1635994690098809263, guid: a37141067f07e9a40911bcac16e060c4,
+      type: 3}
+  - Probability: 0.2
+    PickupObj: {fileID: 1373516176451632339, guid: 9bd5309f032974941b150bf3fa683530,
+      type: 3}
+  - Probability: 0.2
+    PickupObj: {fileID: 493668409390164812, guid: 65e21bdcc0ad9694dbeb9cbb47cfbfb6,
+      type: 3}
+  - Probability: 0.2
+    PickupObj: {fileID: 4281583812608382353, guid: 5b2674ba5dce64c459446aed156242ac,
+      type: 3}
+  PickupsTransforms: []
+  _isInArena: 0
+  _spawnCoolDown: 3

@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7487111568876522252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1343968207812218790}
+  - component: {fileID: 4300460530600943683}
+  m_Layer: 0
+  m_Name: Navmesh Surface
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1343968207812218790
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7487111568876522252}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 13.6, z: 15000}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 8767176546827373104}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4300460530600943683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7487111568876522252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 0
+  m_CollectObjects: 1
+  m_Size: {x: 10000, y: 30, z: 30000}
+  m_Center: {x: 0, y: 0, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 14604
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_BuildHeightMesh: 0
+  m_NavMeshData: {fileID: 23800000, guid: d22aa7abcad4463458c2d0a8dd8b808c, type: 2}
+--- !u!1 &8767176546827373105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8767176546827373104}
+  - component: {fileID: 8767176546827373111}
+  m_Layer: 0
+  m_Name: Tracks Random Manager_MIAMI
+  m_TagString: Rooms
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8767176546827373104
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8767176546827373105}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1343968207812218790}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8767176546827373111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8767176546827373105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b86a208b0a5d3414f8f0e2f2ea936c9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FirstTracksList:
+  - {fileID: 5494914519952244199, guid: 7961b28ed7cf86546bb9a50aeaeb4174, type: 3}
+  MiddleTracksList:
+  - {fileID: 5116809358133834923, guid: 70e49d1faaf23a742a512784319c7a43, type: 3}
+  - {fileID: 1211991426657325293, guid: 9c902ca49eef1f4409efe76eb8fc0715, type: 3}
+  - {fileID: 762700836861509212, guid: f5b7defead741bd4e866412a13f59e6f, type: 3}
+  - {fileID: 5116809358133834923, guid: 09545a4e00b9bbc4cae57fb55542bed2, type: 3}
+  - {fileID: 8848285479021062251, guid: ccb5882943a7a544a89c1a0be9660d12, type: 3}
+  - {fileID: 5116809358133834923, guid: 054f1f7f2782f9f4e9db530651fe540f, type: 3}
+  - {fileID: 3625616057299555890, guid: 7f98cdec673cbbc4b9b2a3d8f18c9eb8, type: 3}
+  - {fileID: 7164939934821273205, guid: 9151e902fe66d124d865a1365a27bce0, type: 3}
+  - {fileID: 5116809358133834923, guid: a914b061f0c583146b668bb6d7e0b058, type: 3}
+  - {fileID: 2163797176435704748, guid: 5074a3b55a681c4429a3b0ed39321afa, type: 3}
+  - {fileID: 5108766695494838112, guid: bd1f84c2128b0b949b136038a19744cf, type: 3}
+  - {fileID: 4405904969735669381, guid: 3c2470f374e0ffd4aa9a9a5463a3a4fe, type: 3}
+  - {fileID: 5116809358133834923, guid: 114b1ae97e8b7eb4fb7c07ffb8faa4ba, type: 3}
+  - {fileID: 5977997923075691761, guid: b5647ab85f492b54c90292f2b6b05603, type: 3}
+  - {fileID: 1257972787239628467, guid: b533b0a0af10dae4c93a0e1bebb64ffc, type: 3}
+  - {fileID: 5116809358133834923, guid: 5b8c87a5f1831ab429f4914e3485fa7d, type: 3}
+  - {fileID: 5116809358133834923, guid: 8e83819f9e73f7a4e97f2f048d3d2a4a, type: 3}
+  - {fileID: 5116809358133834923, guid: 69155a3066c4f0240949fa55f42c6ffe, type: 3}
+  LastTracksList:
+  - {fileID: 5116809358133834923, guid: 70e49d1faaf23a742a512784319c7a43, type: 3}
+  - {fileID: 1211991426657325293, guid: 9c902ca49eef1f4409efe76eb8fc0715, type: 3}
+  - {fileID: 762700836861509212, guid: f5b7defead741bd4e866412a13f59e6f, type: 3}
+  - {fileID: 5116809358133834923, guid: 09545a4e00b9bbc4cae57fb55542bed2, type: 3}
+  - {fileID: 8848285479021062251, guid: ccb5882943a7a544a89c1a0be9660d12, type: 3}
+  - {fileID: 5116809358133834923, guid: 054f1f7f2782f9f4e9db530651fe540f, type: 3}
+  - {fileID: 3625616057299555890, guid: 7f98cdec673cbbc4b9b2a3d8f18c9eb8, type: 3}
+  - {fileID: 7164939934821273205, guid: 9151e902fe66d124d865a1365a27bce0, type: 3}
+  - {fileID: 5116809358133834923, guid: a914b061f0c583146b668bb6d7e0b058, type: 3}
+  - {fileID: 2163797176435704748, guid: 5074a3b55a681c4429a3b0ed39321afa, type: 3}
+  - {fileID: 5108766695494838112, guid: bd1f84c2128b0b949b136038a19744cf, type: 3}
+  - {fileID: 4405904969735669381, guid: 3c2470f374e0ffd4aa9a9a5463a3a4fe, type: 3}
+  - {fileID: 5116809358133834923, guid: 114b1ae97e8b7eb4fb7c07ffb8faa4ba, type: 3}
+  - {fileID: 5977997923075691761, guid: b5647ab85f492b54c90292f2b6b05603, type: 3}
+  - {fileID: 1257972787239628467, guid: b533b0a0af10dae4c93a0e1bebb64ffc, type: 3}
+  - {fileID: 5116809358133834923, guid: 5b8c87a5f1831ab429f4914e3485fa7d, type: 3}
+  - {fileID: 5116809358133834923, guid: 8e83819f9e73f7a4e97f2f048d3d2a4a, type: 3}
+  - {fileID: 5116809358133834923, guid: 69155a3066c4f0240949fa55f42c6ffe, type: 3}
+  Tracks: []
+  NavPoints: []
+  PlacementPillars: []
+  Fork: {fileID: 7864040750061817371, guid: e69792cb476707242baef81c1401a538, type: 3}
+  ForkEndless: {fileID: 7864040750061817371, guid: 2ad7a4a74277e4b41bc5ce2cdd6a5ac6,
+    type: 3}
+  Arena: {fileID: 3630911234796228574, guid: 77eed5439c441dc489e880552ac8fe39, type: 3}
+  FirstTracksToSpawn: 1
+  MiddleTracksToSpawn: 5
+  LastTracksToSpawn: 1
+  fork: 0
+  FinishedGeneration: 0
+  DollyLeftWaypoints: []
+  DollyRightWaypoints: []
+  spawnBuildings: {fileID: 0}
+  navmeshSurface: {fileID: 4300460530600943683}
+  ConnectorCounter: 0
+  UseRailing: 0
